@@ -5,6 +5,7 @@ Collection de templates frontend autonomes. Chaque template occupe un dossier d�
 ## Templates disponibles
 
 - [pro-service](./pro-service) : site vitrine sur une seule page, construit avec Next.js 16 (App Router) et TypeScript, destiné aux entreprises de services locales. Tout le contenu visible est en français et se personnalise via le fichier `data/company.ts`.
+- [menu-local](./menu-local) : site monopage Next.js 16 (App Router, React 19, TypeScript strict) destiné aux commerces alimentaires locaux (restaurant, pâtisserie, café, snack, boulangerie). Tout le contenu visible est en français et se personnalise via le fichier `config/site.ts`.
 
 ## Ajouter un template
 
@@ -13,6 +14,15 @@ Créer un nouveau dossier autonome à la racine du dépôt, contenant son propre
 ## Prérequis
 
 Node.js et npm installés.
+
+## Récupérer le dépôt
+
+```bash
+git clone https://github.com/neylorxt/templates-web.git
+cd templates-web
+```
+
+Chaque template se trouve ensuite dans son propre dossier (`pro-service`, `menu-local`). Son README détaille le clonage, l'installation et l'utilisation de bout en bout.
 
 ## Vérification d'un template
 

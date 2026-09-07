@@ -4,6 +4,7 @@ Repo of standalone frontend templates. Each template lives in its own top-level 
 
 ## Layout
 - `pro-service/` — Next.js 16 App Router (React 19, TypeScript strict) single-page marketing site for local service businesses; all visible content is in French. Customization point is `data/company.ts`; brand colors are the `--color-brand-*` scale in `app/globals.css`.
+- `menu-local/` — Next.js 16 App Router (React 19, TypeScript strict) single-page template for local food businesses (restaurant, bakery, café). All visible content is in French and realistic. Customization point is `config/site.ts`; brand identity via CSS variables in `app/globals.css`.
 - Add new templates as new self-contained top-level folders; do not introduce root-level tooling or npm workspaces.
 
 ## Per-template guidance

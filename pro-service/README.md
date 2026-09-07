@@ -30,14 +30,14 @@ Si Node.js n'est pas encore installé sur votre machine, téléchargez la versio
 
 ## Récupérer le projet
 
-Si vous disposez d'une copie du dépôt, clonez le projet puis placez-vous dans son dossier :
+Le template est publié dans le dépôt GitHub [templates-web](https://github.com/neylorxt/templates-web), qui regroupe tous les templates. Clonez le dépôt, puis placez-vous dans le dossier du template :
 
 ```bash
-git clone <adresse-du-depot> pro-service
-cd pro-service
+git clone https://github.com/neylorxt/templates-web.git
+cd templates-web/pro-service
 ```
 
-Sinon, décompressez simplement l'archive du projet dans le dossier de votre choix, puis ouvrez un terminal dans ce dossier. Toutes les commandes ci-dessous se lancent depuis la racine du projet.
+Vous pouvez aussi télécharger l'archive ZIP du dépôt depuis GitHub, la décompresser, puis ouvrir un terminal dans le dossier `pro-service`. Toutes les commandes ci-dessous se lancent depuis la racine du template.
 
 ## Installation des dépendances
 
