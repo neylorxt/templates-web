@@ -12,6 +12,7 @@ Repo of standalone frontend templates. Each template lives in its own top-level 
 - `pro-service/` runs Next.js 16, which has breaking changes vs older versions; its `AGENTS.md` points to `node_modules/next/dist/docs/` for accurate APIs.
 
 ## Conventions
-- Repo index and user-facing template content are written in French; keep the root `README.md` in French. In French prose, do not use the hyphen ("-") as a separator (see the README); reserve it for compound names/identifiers and markdown bullets.
+- Repo index and user-facing template content are written in French; keep the root `README.md` in French. In French prose, do not use the hyphen ("-") as a separator (see `MAINTENANCE.md`); reserve it for compound names/identifiers and markdown bullets.
+- Root `README.md` is user-oriented; maintainer procedures (adding templates, commit conventions) live in `MAINTENANCE.md`.
 - Remote is `origin` → `https://github.com/neylorxt/templates-web.git`.
 - No root scripts; each template defines its own (dev, build, lint, typecheck).
