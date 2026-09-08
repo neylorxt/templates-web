@@ -1,10 +1,21 @@
 # TemplateHub
 
+![Aperçu du template TemplateHub](public/preview.png)
+
 Hub et vitrine de templates de sites internet professionnels, prêts à être personnalisés pour des clients.
 
 TemplateHub présente **ProService**, **MenuLocal** et **ShowcasePro** : trois modèles Next.js pensés pour les entreprises de services, les commerces et les indépendants. Le site permet à un prospect de découvrir les modèles, de les comparer, d'ouvrir une démonstration et de contacter l'équipe pour faire personnaliser un template.
 
 Le parcours proposé est le suivant : **découvrir → comparer → ouvrir une démo → choisir → contacter.**
+
+## Stack technique
+
+- Next.js 16 (App Router, React 19, TypeScript strict)
+- Tailwind CSS v4, configuré en CSS-first dans `app/globals.css` (pas de `tailwind.config.js`)
+- `lucide-react` pour les icônes
+- `next/image` pour les aperçus optimisés des templates
+- `next/font` pour les polices Google (Geist + Geist Mono)
+- SEO intégré : `app/sitemap.ts` et `app/robots.ts` générés à partir des données
 
 ## Templates présentés
 
