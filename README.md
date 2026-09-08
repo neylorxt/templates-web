@@ -7,6 +7,7 @@ Collection de templates frontend autonomes. Chaque template occupe un dossier d�
 - [pro-service](./pro-service) : site vitrine sur une seule page, construit avec Next.js 16 (App Router) et TypeScript, destiné aux entreprises de services locales. Tout le contenu visible est en français et se personnalise via le fichier `data/company.ts`.
 - [menu-local](./menu-local) : site monopage Next.js 16 (App Router, React 19, TypeScript strict) destiné aux commerces alimentaires locaux (restaurant, pâtisserie, café, snack, boulangerie). Tout le contenu visible est en français et se personnalise via le fichier `config/site.ts`.
 - [showcase-pro](./showcase-pro) : site monopage Next.js 16 (App Router, React 19, TypeScript strict, Tailwind v4) destiné aux photographes, barbers, coachs, freelances, créateurs, agences et prestataires de services. Tout le contenu visible est en français et se personnalise via le fichier `config/site.ts` (le contenu des sections vitrines se règle dans `data/`).
+- [template-hub](./template-hub) : hub et vitrine des trois templates ci-dessus. Site multi-pages Next.js 16 (App Router, React 19, TypeScript strict, Tailwind v4) pour découvrir, comparer et démontrer les modèles : cartes, filtres, pages de détail et formulaire de contact, le tout en français. Les données des templates se règlent dans `data/templates.ts` et les coordonnées du site dans `config/site.ts`.
 
 ## Prérequis
 
@@ -19,7 +20,7 @@ git clone https://github.com/neylorxt/templates-web.git
 cd templates-web
 ```
 
-Chaque template se trouve ensuite dans son propre dossier (`pro-service`, `menu-local`, `showcase-pro`). Son README détaille le clonage, l'installation et l'utilisation de bout en bout.
+Chaque template se trouve ensuite dans son propre dossier (`pro-service`, `menu-local`, `showcase-pro`, `template-hub`). Son README détaille le clonage, l'installation et l'utilisation de bout en bout.
 
 ## Vérification d'un template
 
