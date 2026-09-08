@@ -1,5 +1,7 @@
 # ProService
 
+![Aperçu du template ProService](public/preview.png)
+
 Template de site vitrine professionnel, sur une seule page, destiné aux petites entreprises de services : garages automobiles, entreprises de nettoyage, plombiers, électriciens, artisans et services locaux.
 
 Construit avec **Next.js 16** (App Router), **React 19**, **TypeScript** et **Tailwind CSS v4**. Tout le contenu visible est en français.

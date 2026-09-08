@@ -1,5 +1,7 @@
 # MenuLocal
 
+![Aperçu du template MenuLocal](public/preview.png)
+
 Template Next.js monopage pour un commerce alimentaire local : restaurant, pâtisserie, café, snack, boulangerie ou petit commerce. Un site complet, en français, réaliste et prêt à être montré à un client comme démo commerciale, puis personnalisé en quelques minutes.
 
 Le repo est fourni avec un exemple crédible : « Le Comptoir de Léa », un bistrot de la Presqu’île de Lyon.

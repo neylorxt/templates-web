@@ -1,5 +1,7 @@
 # ShowcasePro
 
+![Aperçu du template ShowcasePro](public/preview.png)
+
 Template Next.js de site vitrine professionnel, conçu pour être adapté rapidement à un prestataire : photographe, barber, coach, freelance, créateur, petite agence ou consultant.
 
 Site monopage en français, pensé pour : **montrer les réalisations → rassurer → présenter les services et tarifs → obtenir une prise de contact ou une réservation.**
