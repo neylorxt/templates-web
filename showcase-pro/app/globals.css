@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette de marque (modifiable ici pour changer l'identité visuelle) */
+  --color-brand-50: #fbf3ee;
+  --color-brand-100: #f6e1d3;
+  --color-brand-200: #ebc3a7;
+  --color-brand-300: #dfa07a;
+  --color-brand-400: #d37a4d;
+  --color-brand-500: #c65a2a;
+  --color-brand-600: #b24b1f;
+  --color-brand-700: #93391a;
+  --color-brand-800: #783018;
+  --color-brand-900: #5f2815;
+
+  --color-cream: #faf7f2;
+  --color-paper: #ffffff;
+  --color-ink: #1c1917;
+  --color-coal: #14110e;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+}
+
+:root {
+  --background: #faf7f2;
+  --foreground: #1c1917;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #b24b1f;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid #b24b1f;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
