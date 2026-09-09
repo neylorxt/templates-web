@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette de marque (modifiable ici pour changer l'identité visuelle) */
+  --color-brand-50: #f0f5f9;
+  --color-brand-100: #dce8f1;
+  --color-brand-200: #b9d0e2;
+  --color-brand-300: #8cb1cd;
+  --color-brand-400: #578bb0;
+  --color-brand-500: #356f96;
+  --color-brand-600: #27597e;
+  --color-brand-700: #214968;
+  --color-brand-800: #203e56;
+  --color-brand-900: #1d3548;
+  --color-brand-950: #0f1f2e;
+
+  /* Accent doré, réservé aux touches premium (badges, prix, points forts) */
+  --color-gold-400: #c9a76b;
+  --color-gold-500: #b08d57;
+  --color-gold-600: #97753f;
+
+  --color-cream: #faf7f2;
+  --color-paper: #ffffff;
+  --color-ink: #1b232b;
+  --color-coal: #0f1f2e;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1b232b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #27597e;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid #27597e;
+  outline-offset: 2px;
+}
+
+/* Rendu plus premium des grandes images du hero et des biens en vedette */
+@keyframes slow-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 18s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-slow-zoom {
+    animation: none;
+  }
+}
