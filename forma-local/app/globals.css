@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette de marque (modifiable ici pour changer l'identité visuelle).
+     Un bleu profond, professionnel et rassurant, adapté au monde de la
+     formation et de l'éducation. */
+  --color-brand-50: #eef5ff;
+  --color-brand-100: #d9e8ff;
+  --color-brand-200: #bcd7ff;
+  --color-brand-300: #8ebeff;
+  --color-brand-400: #599afc;
+  --color-brand-500: #3377f6;
+  --color-brand-600: #1e58eb;
+  --color-brand-700: #1645d8;
+  --color-brand-800: #193aaf;
+  --color-brand-900: #1a358a;
+  --color-brand-950: #152254;
+
+  /* Accent chaleureux (ambre), réservé à de petites touches (badges, notes) */
+  --color-accent-100: #fff4d6;
+  --color-accent-400: #f7b733;
+  --color-accent-500: #f59e0b;
+  --color-accent-600: #d97706;
+
+  --color-cream: #fbfcfe;
+  --color-mist: #f4f7fb;
+  --color-paper: #ffffff;
+  --color-ink: #0f1b33;
+  --color-coal: #0b1226;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f1b33;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #1645d8;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid #1645d8;
+  outline-offset: 2px;
+}
+
+/* Apparition très douce du hero */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-up {
+    animation: none;
+  }
+}
