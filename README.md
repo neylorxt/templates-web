@@ -10,6 +10,7 @@ Collection de templates frontend autonomes. Chaque template occupe un dossier d�
 - [template-hub](./template-hub) : hub et vitrine des trois templates ci-dessus. Site multi-pages Next.js 16 (App Router, React 19, TypeScript strict, Tailwind v4) pour découvrir, comparer et démontrer les modèles : cartes, filtres, pages de détail et formulaire de contact, le tout en français. Les données des templates se règlent dans `data/templates.ts` et les coordonnées du site dans `config/site.ts`.
 - [immo-pro](./immo-pro) : site vitrine multi-pages Next.js 16 (App Router, React 19, TypeScript strict, Tailwind v4) pour agences immobilières, agents indépendants, promoteurs et petites structures du secteur. Il permet de présenter les biens, de les filtrer, de mettre en avant certains d'entre eux et de générer des demandes de visite, avec contact par téléphone et WhatsApp. Les données se règlent dans `config/site.ts` (identité et coordonnées) et `data/properties.ts` (catalogue des biens).
 - [soin-pro](./soin-pro) : site vitrine monopage Next.js 16 (App Router, React 19, TypeScript strict, Tailwind v4) pour un professionnel de santé ou un petit cabinet (dentiste, kinésithérapeute, psychologue, nutritionniste, ostéopathe, cabinet pluridisciplinaire). Spécialités, praticiens, horaires avec indicateur ouvert ou fermé, prise de rendez-vous en ligne ou par téléphone et formulaire de contact. Les données se règlent dans `config/site.ts` (identité, coordonnées, horaires, prise de rendez-vous, WhatsApp) et `data/` (spécialités, praticiens, avis, informations pratiques).
+- [forma-local](./forma-local) : site commercial Next.js 16 (App Router, React 19, TypeScript strict, Tailwind v4) pour écoles privées, centres de langues, organismes de formation professionnelle, centres de soutien scolaire et auto-écoles. Catalogue de formations avec pages détail, filtres, tarifs, témoignages, préinscription et contact. Les données se règlent dans `config/site.ts` (identité, coordonnées, financement, WhatsApp) et `data/` (formations, programmes, avis, tarifs, avantages).
 
 ## Prérequis
 
@@ -22,7 +23,7 @@ git clone https://github.com/neylorxt/templates-web.git
 cd templates-web
 ```
 
-Chaque template se trouve ensuite dans son propre dossier (`pro-service`, `menu-local`, `showcase-pro`, `template-hub`, `immo-pro`, `soin-pro`). Son README détaille le clonage, l'installation et l'utilisation de bout en bout.
+Chaque template se trouve ensuite dans son propre dossier (`pro-service`, `menu-local`, `showcase-pro`, `template-hub`, `immo-pro`, `soin-pro`, `forma-local`). Son README détaille le clonage, l'installation et l'utilisation de bout en bout.
 
 ## Vérification d'un template
 
