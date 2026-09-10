@@ -38,7 +38,7 @@ export default function Hero() {
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
           <Link
-            href="/#estimation"
+            href="/estimation"
             className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full border border-white/30 px-7 py-3.5 text-base font-medium text-white transition-colors hover:bg-white/10"
           >
             <Calculator className="h-4 w-4" aria-hidden="true" />

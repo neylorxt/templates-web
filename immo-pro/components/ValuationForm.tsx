@@ -68,7 +68,7 @@ export default function ValuationForm() {
         <div>
           <label
             htmlFor="estimation-type"
-            className="mb-1.5 block text-sm font-medium text-zinc-800"
+            className="mb-1.5 block text-sm font-medium text-zinc-200"
           >
             Type de bien
           </label>
@@ -88,11 +88,14 @@ export default function ValuationForm() {
               </option>
             ))}
           </select>
+          <p className="mt-1.5 text-xs text-zinc-400">
+            Appartement, maison, villa, terrain, bureau ou commerce.
+          </p>
         </div>
         <div>
           <label
             htmlFor="estimation-ville"
-            className="mb-1.5 block text-sm font-medium text-zinc-800"
+            className="mb-1.5 block text-sm font-medium text-zinc-200"
           >
             Ville
           </label>
@@ -103,11 +106,14 @@ export default function ValuationForm() {
             placeholder="Lyon 3e, Villeurbanne…"
             className={inputClass}
           />
+          <p className="mt-1.5 text-xs text-zinc-400">
+            Indiquez la commune ou l&apos;arrondissement du bien.
+          </p>
         </div>
         <div>
           <label
             htmlFor="estimation-surface"
-            className="mb-1.5 block text-sm font-medium text-zinc-800"
+            className="mb-1.5 block text-sm font-medium text-zinc-200"
           >
             Surface (m²)
           </label>
@@ -119,11 +125,14 @@ export default function ValuationForm() {
             placeholder="85"
             className={inputClass}
           />
+          <p className="mt-1.5 text-xs text-zinc-400">
+            La surface habitable du bien en m².
+          </p>
         </div>
         <div>
           <label
             htmlFor="estimation-pieces"
-            className="mb-1.5 block text-sm font-medium text-zinc-800"
+            className="mb-1.5 block text-sm font-medium text-zinc-200"
           >
             Nombre de pièces
           </label>
@@ -135,11 +144,14 @@ export default function ValuationForm() {
             placeholder="4"
             className={inputClass}
           />
+          <p className="mt-1.5 text-xs text-zinc-400">
+            Le nombre total de pièces principales.
+          </p>
         </div>
         <div>
           <label
             htmlFor="estimation-email"
-            className="mb-1.5 block text-sm font-medium text-zinc-800"
+            className="mb-1.5 block text-sm font-medium text-zinc-200"
           >
             Email
           </label>
@@ -151,11 +163,14 @@ export default function ValuationForm() {
             placeholder="vous@exemple.fr"
             className={inputClass}
           />
+          <p className="mt-1.5 text-xs text-zinc-400">
+            Pour recevoir votre estimation et le suivi.
+          </p>
         </div>
         <div>
           <label
             htmlFor="estimation-telephone"
-            className="mb-1.5 block text-sm font-medium text-zinc-800"
+            className="mb-1.5 block text-sm font-medium text-zinc-200"
           >
             Téléphone
           </label>
@@ -166,6 +181,9 @@ export default function ValuationForm() {
             placeholder="06 12 34 56 78"
             className={inputClass}
           />
+          <p className="mt-1.5 text-xs text-zinc-400">
+            Pour un premier échange rapide (facultatif).
+          </p>
         </div>
       </div>
 

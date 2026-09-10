@@ -15,7 +15,7 @@ const benefits = [
  */
 export default function ValuationCTA() {
   return (
-    <Section id="estimation" className="bg-coal">
+    <Section className="bg-coal">
       <div className="grid gap-12 lg:grid-cols-2">
         <div>
           <p className="text-sm font-semibold uppercase tracking-widest text-gold-400">

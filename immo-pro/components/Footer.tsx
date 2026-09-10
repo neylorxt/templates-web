@@ -67,7 +67,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/#estimation"
+                  href="/estimation"
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
                 >
                   Estimer mon bien

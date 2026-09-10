@@ -6,7 +6,6 @@ import PropertyGrid from "@/components/PropertyGrid";
 import FeaturedProperty from "@/components/FeaturedProperty";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import ValuationCTA from "@/components/ValuationCTA";
 import Testimonials from "@/components/Testimonials";
 import Location from "@/components/Location";
 import CtaFinal from "@/components/CtaFinal";
@@ -44,7 +43,6 @@ export default function HomePage() {
       <FeaturedProperty />
       <About />
       <Services />
-      <ValuationCTA />
       <Testimonials />
       <Location />
       <CtaFinal />

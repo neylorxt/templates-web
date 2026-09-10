@@ -67,7 +67,7 @@ export default function Header() {
             <Link href="/contact" className={buttonClassName("ghost", "md")}>
               Nous contacter
             </Link>
-            <Link href="/#estimation" className={buttonClassName("primary", "md")}>
+            <Link href="/estimation" className={buttonClassName("primary", "md")}>
               Estimer mon bien
             </Link>
           </div>
@@ -103,7 +103,7 @@ export default function Header() {
             </nav>
             <div className="mt-4 flex flex-col gap-3">
               <Link
-                href="/#estimation"
+                href="/estimation"
                 onClick={() => setOpen(false)}
                 className={buttonClassName("primary", "md")}
               >

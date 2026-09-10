@@ -35,7 +35,7 @@ export default function CtaFinal() {
             Nous contacter
           </Link>
           <Link
-            href="/#estimation"
+            href="/estimation"
             className="inline-flex items-center gap-2 rounded-full border border-white/30 px-7 py-3.5 text-base font-medium text-white transition-colors hover:bg-white/10"
           >
             <Calculator className="h-4 w-4" aria-hidden="true" />

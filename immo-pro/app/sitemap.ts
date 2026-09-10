@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${siteConfig.baseUrl}/estimation`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
     ...properties.map((property) => ({
       url: `${siteConfig.baseUrl}/biens/${property.slug}`,
       lastModified: now,
