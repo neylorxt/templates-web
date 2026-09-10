@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette de marque (modifiable ici pour changer l'identité visuelle).
+     Un vert sauge doux, apaisant et naturel, adapté au monde du soin. */
+  --color-brand-50: #f1f7f3;
+  --color-brand-100: #ddece2;
+  --color-brand-200: #bdd9c8;
+  --color-brand-300: #92bfa6;
+  --color-brand-400: #62a081;
+  --color-brand-500: #428364;
+  --color-brand-600: #2f684e;
+  --color-brand-700: #265340;
+  --color-brand-800: #204335;
+  --color-brand-900: #1c382d;
+  --color-brand-950: #0e1f19;
+
+  /* Accent chaleureux, réservé à de petites touches (badges, notes) */
+  --color-clay-100: #f7ece5;
+  --color-clay-300: #e3b9a3;
+  --color-clay-400: #d8a189;
+  --color-clay-500: #c8836a;
+  --color-clay-600: #ac6650;
+
+  --color-cream: #f7f5ef;
+  --color-mist: #eef4f0;
+  --color-paper: #ffffff;
+  --color-ink: #1e2a25;
+  --color-coal: #14211c;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1e2a25;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #2f684e;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid #2f684e;
+  outline-offset: 2px;
+}
+
+/* Apparition très douce du hero */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-up {
+    animation: none;
+  }
+}
