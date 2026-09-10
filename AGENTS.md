@@ -8,6 +8,7 @@ Repo of standalone frontend templates. Each template lives in its own top-level 
 - `showcase-pro/` — Next.js 16 App Router (React 19, TypeScript strict, Tailwind v4) single-page template for photographers, barbers, coaches, freelancers, agencies and service providers. All visible content is in French; demo profile is a Lyon-based photographer. Customization point is `config/site.ts`; section content (projects, services, pricing, testimonials, process) in `data/*.ts`; brand colors are the `--color-brand-*` scale in `app/globals.css`.
 - `template-hub/` — Next.js 16 App Router (React 19, TypeScript strict, Tailwind v4) hub / showcase of the sibling templates: cards, filters, comparison, detail pages and a contact form, all in French. Customization point is `data/templates.ts` (template data, generated cards/pages) and `config/site.ts` (brand, contact, WhatsApp).
 - `immo-pro/` — Next.js 16 App Router (React 19, TypeScript strict, Tailwind v4) single-page-plus-catalog template for real estate agencies, agents, developers and property firms; all visible content is in French, demo agency Lyon-based. Customization points: `config/site.ts` (identity, contact, WhatsApp), `data/properties.ts` (catalog: home grid, `/biens`, filters, detail pages, sitemap), `data/testimonials.ts`, `data/services.ts`; brand colors in `app/globals.css`.
+- `soin-pro/` — Next.js 16 App Router (React 19, TypeScript strict, Tailwind v4) single-page template for health professionals and small clinics: dentist, physiotherapist, psychologist, nutritionist, osteopath or multidisciplinary practice. All visible content is in French; demo profile is a Lyon-based multidisciplinary clinic. Customization points: `config/site.ts` (identity, contact, booking, hours, emergency, WhatsApp), `data/specialties.ts`, `data/practitioners.ts`, `data/testimonials.ts` (fictional, clearly flagged as demo), `data/process.ts`, `data/practicalInfo.ts`; brand colors in `app/globals.css`. "Open now" status is computed client-side (see `lib/hours.ts`).
 - Add new templates as new self-contained top-level folders; do not introduce root-level tooling or npm workspaces.
 
 ## Per-template guidance
@@ -15,6 +16,7 @@ Repo of standalone frontend templates. Each template lives in its own top-level 
 
 ## Conventions
 - Repo index and user-facing template content are written in French; keep the root `README.md` in French. In French prose, do not use the hyphen ("-") as a separator (see `MAINTENANCE.md`); reserve it for compound names/identifiers and markdown bullets.
-- Root `README.md` is user-oriented; maintainer procedures (adding templates, commit conventions) live in `MAINTENANCE.md`.
+- Root `README.md` is user-oriented; maintainer procedures (adding templates, commit conventions) live in `MAINTENANCE.md`. When adding or removing a template, update the `Layout` list here and the « Templates disponibles » section of the root `README.md`.
+- Every template ships a `CLAUDE.md` that just contains `@AGENTS.md`; keep it pointing at the template's own `AGENTS.md`.
 - Remote is `origin` → `https://github.com/neylorxt/templates-web.git`.
 - No root scripts; each template defines its own (dev, build, start, lint). There is no `typecheck` script; type-check with `npx tsc --noEmit` from the template folder.
