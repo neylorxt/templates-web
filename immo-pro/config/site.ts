@@ -89,11 +89,9 @@ export const siteConfig = {
   /** Navigation principale (le Header et le Footer s'appuient dessus) */
   nav: [
     { label: "Accueil", href: "/" },
-    { label: "Acheter", href: "/biens?transaction=vente" },
-    { label: "Louer", href: "/biens?transaction=location" },
     { label: "Nos biens", href: "/biens" },
     { label: "À propos", href: "/#a-propos" },
-    { label: "Contact", href: "/#contact" },
+    { label: "Contact", href: "/contact" },
   ] as NavItem[],
 };
 

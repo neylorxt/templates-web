@@ -92,7 +92,11 @@ export default async function BiensPage({ searchParams }: BiensPageProps) {
       </section>
 
       <Section className="pt-10">
-        <PropertyFilters properties={properties} initial={initial} />
+        <PropertyFilters
+          key={JSON.stringify(initial)}
+          properties={properties}
+          initial={initial}
+        />
       </Section>
     </>
   );

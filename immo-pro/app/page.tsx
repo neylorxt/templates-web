@@ -8,7 +8,6 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import ValuationCTA from "@/components/ValuationCTA";
 import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
 import Location from "@/components/Location";
 import CtaFinal from "@/components/CtaFinal";
 import { Section } from "@/components/Section";
@@ -47,7 +46,6 @@ export default function HomePage() {
       <Services />
       <ValuationCTA />
       <Testimonials />
-      <Contact />
       <Location />
       <CtaFinal />
     </>

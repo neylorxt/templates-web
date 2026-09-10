@@ -43,7 +43,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5">
               <li>
                 <Link
-                  href="/biens?transaction=vente"
+                  href="/biens"
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
                 >
                   Acheter
@@ -51,7 +51,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/biens?transaction=location"
+                  href="/biens"
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
                 >
                   Louer
@@ -89,7 +89,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/#contact"
+                  href="/contact"
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
                 >
                   Contact

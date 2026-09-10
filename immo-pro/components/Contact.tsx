@@ -2,7 +2,6 @@ import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { mailLink, siteConfig, telLink, whatsappLink } from "@/config/site";
 import ContactForm from "@/components/ContactForm";
 import { Section } from "@/components/Section";
-import { SectionHeading } from "@/components/SectionHeading";
 import { Reveal } from "@/components/Reveal";
 import {
   FacebookIcon,
@@ -13,14 +12,8 @@ import {
 
 export default function Contact() {
   return (
-    <Section id="contact" className="bg-cream">
-      <SectionHeading
-        eyebrow="Contact"
-        title="Parlons de votre projet"
-        subtitle="Une question, une visite ou un bien à confier ? Notre équipe vous répond rapidement."
-      />
-
-      <div className="mt-12 grid gap-10 lg:grid-cols-2">
+    <Section className="bg-cream">
+      <div className="grid gap-10 lg:grid-cols-2">
         <Reveal>
           <div className="h-full rounded-3xl border border-zinc-200 bg-white p-8">
             <h3 className="font-display text-xl font-semibold text-ink">

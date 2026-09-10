@@ -28,7 +28,7 @@ export default function CtaFinal() {
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
           <Link
-            href="/#contact"
+            href="/contact"
             className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-medium text-brand-900 transition-colors hover:bg-brand-50"
           >
             <MessageCircle className="h-4 w-4" aria-hidden="true" />

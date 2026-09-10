@@ -83,7 +83,7 @@ export default function About() {
           </dl>
 
           <a
-            href="#contact"
+            href="/contact"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-700 px-7 py-3.5 text-base font-medium text-white transition-colors hover:bg-brand-800"
           >
             Découvrir l&apos;agence

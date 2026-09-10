@@ -64,7 +64,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <Link href="/#contact" className={buttonClassName("ghost", "md")}>
+            <Link href="/contact" className={buttonClassName("ghost", "md")}>
               Nous contacter
             </Link>
             <Link href="/#estimation" className={buttonClassName("primary", "md")}>
@@ -110,7 +110,7 @@ export default function Header() {
                 Estimer mon bien
               </Link>
               <Link
-                href="/#contact"
+                href="/contact"
                 onClick={() => setOpen(false)}
                 className={buttonClassName("secondary", "md")}
               >
