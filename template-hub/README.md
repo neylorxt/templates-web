@@ -4,7 +4,7 @@
 
 Hub et vitrine de templates de sites internet professionnels, prêts à être personnalisés pour des clients.
 
-TemplateHub présente **ProService**, **MenuLocal** et **ShowcasePro** : trois modèles Next.js pensés pour les entreprises de services, les commerces et les indépendants. Le site permet à un prospect de découvrir les modèles, de les comparer, d'ouvrir une démonstration et de contacter l'équipe pour faire personnaliser un template.
+TemplateHub présente **ProService**, **MenuLocal**, **ShowcasePro**, **ImmoPro**, **SoinPro** et **FormaLocal** : six modèles Next.js pensés pour les entreprises de services, les commerces, les indépendants, l'immobilier, la santé et la formation. Le site permet à un prospect de découvrir les modèles, de les comparer, d'ouvrir une démonstration et de contacter l'équipe pour faire personnaliser un template.
 
 Le parcours proposé est le suivant : **découvrir → comparer → ouvrir une démo → choisir → contacter.**
 
@@ -22,6 +22,9 @@ Le parcours proposé est le suivant : **découvrir → comparer → ouvrir une d
 - **ProService** — pour garages, plomberie, nettoyage, électricité et petites entreprises de services.
 - **MenuLocal** — pour restaurants, pâtisseries, cafés, boulangeries et commerces.
 - **ShowcasePro** — pour photographes, barbers, coachs, freelances et petites agences.
+- **ImmoPro** — pour agences immobilières, agents indépendants, promoteurs et petites structures immobilières.
+- **SoinPro** — pour dentistes, kinésithérapeutes, psychologues, nutritionnistes, ostéopathes et petits cabinets.
+- **FormaLocal** — pour écoles privées, centres de langues, organismes de formation, soutien scolaire et auto-écoles.
 
 ## Prérequis
 
@@ -53,7 +56,7 @@ Ouvrez http://localhost:3000 dans votre navigateur. Le serveur de développement
 
 Les coordonnées, le numéro WhatsApp, les réseaux sociaux et la navigation sont centralisés dans `config/site.ts`.
 
-Les informations des templates sont centralisées dans `data/templates.ts` : nom, catégorie, description, activités compatibles, sections du site, fonctionnalités, lien de démonstration et couleurs d'accent. Les cartes et les pages dédiées sont générées automatiquement depuis ce fichier.
+Les informations des templates sont centralisées dans `data/templates.ts` : nom, catégorie, description, activités compatibles, sections du site, fonctionnalités, lien de démonstration, lien du code source et couleurs d'accent. Les cartes et les pages dédiées sont générées automatiquement depuis ce fichier.
 
 Les aperçus se remplacent dans `public/templates/` :
 
@@ -61,6 +64,9 @@ Les aperçus se remplacent dans `public/templates/` :
 public/templates/proservice/preview.png
 public/templates/menulocal/preview.png
 public/templates/showcasepro/preview.png
+public/templates/immopro/preview.png
+public/templates/soinpro/preview.png
+public/templates/formalocal/preview.png
 ```
 
 L'identité visuelle (couleur de marque) se règle dans `app/globals.css` via les variables `--color-brand-*`.

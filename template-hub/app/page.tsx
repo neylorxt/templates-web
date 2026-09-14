@@ -23,7 +23,7 @@ export default function HomePage() {
           <SectionHeader
             eyebrow="Catalogue"
             title="Nos templates"
-            description="Trois modèles pensés pour les métiers de service, les commerces et les indépendants. Explorez, comparez et choisissez celui qui vous ressemble."
+            description="Six modèles pensés pour les services, les commerces, les indépendants, l'immobilier, la santé et la formation. Explorez, comparez et choisissez celui qui vous ressemble."
           />
         </Reveal>
         <Reveal delay={100}>

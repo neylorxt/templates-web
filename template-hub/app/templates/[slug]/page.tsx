@@ -6,6 +6,7 @@ import {
   ArrowLeft,
   ArrowRight,
   Check,
+  Code2,
   ExternalLink,
   LayoutTemplate,
 } from "lucide-react";
@@ -95,6 +96,15 @@ export default async function TemplateDetailPage({ params }: TemplatePageProps) 
             >
               Voir la démo
               <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
+            <a
+              href={template.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={buttonClassName("secondary", "lg")}
+            >
+              Code source
+              <Code2 className="h-4 w-4" aria-hidden="true" />
             </a>
             <Link
               href="/contact"
