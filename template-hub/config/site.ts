@@ -20,10 +20,10 @@ export const siteConfig = {
 
   /** Coordonnées de contact (à remplacer par les vraies informations) */
   contact: {
-    phone: "33612345678",
-    phoneDisplay: "06 12 34 56 78",
-    whatsapp: "33612345678",
-    email: "contact@template-hub.fr",
+    phone: "33763702481",
+    phoneDisplay: "07 63 70 24 81",
+    whatsapp: "33763702481",
+    email: "eriencharmelyfr@gmail.com",
   },
 
   /** Message WhatsApp pré-rempli */
