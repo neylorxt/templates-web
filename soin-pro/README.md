@@ -148,4 +148,3 @@ npm run build      # build de production
 - L'eslint interdit l'apostrophe droite dans le texte JSX : écrire `&apos;`.
 - Dans la prose française, ne pas employer le trait d'union comme séparateur ; le réserver aux noms composés et identifiants.
 - Ce site est une vitrine et un outil de prise de contact et de rendez-vous, pas un logiciel médical : il ne collecte aucune donnée de santé et ne fournit aucun diagnostic.
-- Les consignes pour les agents IA sont dans `AGENTS.md` (bloc géré par `next dev` à conserver).

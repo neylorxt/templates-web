@@ -118,4 +118,3 @@ npm run build      # build de production
 - En `lucide-react` v1, les icônes de marque (Facebook, Instagram, Twitter) ne sont plus exportées : elles sont en SVG inline dans `components/SocialIcons.tsx`.
 - L’eslint exige les apostrophes françaises typographiques (`’`) dans le JSX, pas l’apostrophe droite.
 - Dans la prose française, ne pas employer le trait d’union comme séparateur ; le réserver aux noms composés et identifiants.
-- Les consignes pour les agents IA sont dans `AGENTS.md` (block géré par `next dev` à conserver).

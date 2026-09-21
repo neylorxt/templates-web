@@ -153,4 +153,3 @@ npm run build      # build de production
 - Dans la prose française, ne pas employer le trait d'union comme séparateur ; le réserver aux noms composés et identifiants.
 - Les pages de formation sont générées statiquement (`generateStaticParams`) à partir de `data/courses.ts` : toute nouvelle formation est automatiquement publiée, indexée dans le sitemap et dotée de ses métadonnées SEO.
 - Ce site est une vitrine commerciale et un outil de génération de prospects et d'inscription, pas un système scolaire : l'architecture (statique par défaut) reste connectable plus tard à une API, un CMS, un CRM ou un système de paiement.
-- Les consignes pour les agents IA sont dans `AGENTS.md` (bloc géré par `next dev` à conserver).
