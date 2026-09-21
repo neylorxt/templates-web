@@ -4,7 +4,7 @@
 
 Hub et vitrine de templates de sites internet professionnels, prêts à être personnalisés pour des clients.
 
-TemplateHub présente **ProService**, **MenuLocal**, **ShowcasePro**, **ImmoPro**, **SoinPro** et **FormaLocal** : six modèles Next.js pensés pour les entreprises de services, les commerces, les indépendants, l'immobilier, la santé et la formation. Le site permet à un prospect de découvrir les modèles, de les comparer, d'ouvrir une démonstration et de contacter l'équipe pour faire personnaliser un template.
+TemplateHub présente **ProService**, **MenuLocal**, **ShowcasePro**, **ImmoPro**, **SoinPro**, **FormaLocal** et **LoginPage** : sept modèles Next.js pensés pour les entreprises de services, les commerces, les indépendants, l'immobilier, la santé, la formation et les applications. Le site permet à un prospect de découvrir les modèles, de les comparer, d'ouvrir une démonstration et de contacter l'équipe pour faire personnaliser un template.
 
 Le parcours proposé est le suivant : **découvrir → comparer → ouvrir une démo → choisir → contacter.**
 
@@ -25,6 +25,7 @@ Le parcours proposé est le suivant : **découvrir → comparer → ouvrir une d
 - **ImmoPro** — pour agences immobilières, agents indépendants, promoteurs et petites structures immobilières.
 - **SoinPro** — pour dentistes, kinésithérapeutes, psychologues, nutritionnistes, ostéopathes et petits cabinets.
 - **FormaLocal** — pour écoles privées, centres de langues, organismes de formation, soutien scolaire et auto-écoles.
+- **LoginPage** — pour produits SaaS, applications web, espaces clients et intranets.
 
 ## Prérequis
 
@@ -67,6 +68,7 @@ public/templates/showcasepro/preview.png
 public/templates/immopro/preview.png
 public/templates/soinpro/preview.png
 public/templates/formalocal/preview.png
+public/templates/loginpage/preview.png
 ```
 
 L'identité visuelle (couleur de marque) se règle dans `app/globals.css` via les variables `--color-brand-*`.

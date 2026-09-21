@@ -4,7 +4,8 @@ export type TemplateFilter =
   | "Commerce"
   | "Portfolio"
   | "Services"
-  | "Créatif";
+  | "Créatif"
+  | "Application";
 
 export type Template = {
   /** Identifiant de l'URL, par exemple "proservice" pour /templates/proservice */
@@ -57,6 +58,7 @@ export const templateCategories = [
   "Portfolio",
   "Services",
   "Créatif",
+  "Application",
 ] as const;
 
 export const templates: Template[] = [
@@ -346,6 +348,58 @@ export const templates: Template[] = [
     accent: "#1e3a8a",
     accentSoft: "#dbeafe",
   },
+  {
+    slug: "loginpage",
+    name: "LoginPage",
+    category: "Application / SaaS",
+    filters: ["Application"],
+    tagline: "Des pages de connexion et d'inscription prêtes à brancher",
+    description:
+      "Des pages d'authentification soignées pour un produit ou un service : connexion, inscription et connexion sociale (Google, GitHub, Apple).",
+    longDescription:
+      "LoginPage fournit des écrans d'authentification complets et cohérents, prêts à intégrer à un produit. Formulaires validés côté client, notifications, thème clair ou sombre et panneau de marque personnalisable : il ne reste qu'à brancher votre fournisseur d'authentification.",
+    audience:
+      "Produits SaaS, applications web, espaces clients, intranets et portails partenaires.",
+    image: "/templates/loginpage/preview.png",
+    demoUrl: "https://login-page.eriencharmely.fr",
+    githubUrl:
+      "https://github.com/neylorxt/templates-web/tree/main/login-page",
+    tags: ["Authentification", "Connexion sociale", "Thème sombre", "HeroUI"],
+    target: [
+      "Produit SaaS",
+      "Application web",
+      "Espace client",
+      "Intranet",
+      "Portail partenaire",
+    ],
+    structure: [
+      "Panneau de marque",
+      "Connexion",
+      "Inscription",
+      "Connexion sociale",
+      "Thème clair ou sombre",
+    ],
+    features: [
+      "Connexion par e-mail et mot de passe",
+      "Inscription avec validation",
+      "Boutons Google, GitHub et Apple",
+      "Thème clair ou sombre",
+      "Notifications de succès",
+      "Panneau de marque personnalisable",
+      "Validation côté client",
+      "Design responsive",
+    ],
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "HeroUI",
+      "Vercel",
+    ],
+    accent: "#5358ee",
+    accentSoft: "#e3eaff",
+  },
 ];
 
 export function getTemplateBySlug(slug: string): Template | undefined {
@@ -362,6 +416,7 @@ export const comparisonRows: ComparisonRow[] = [
       immopro: "Oui",
       soinpro: "Oui",
       formalocal: "Oui",
+      loginpage: "Non",
     },
   },
   {
@@ -373,6 +428,7 @@ export const comparisonRows: ComparisonRow[] = [
       immopro: "Galerie biens",
       soinpro: "Non",
       formalocal: "Non",
+      loginpage: "Non",
     },
   },
   {
@@ -384,6 +440,7 @@ export const comparisonRows: ComparisonRow[] = [
       immopro: "Prix des biens",
       soinpro: "Non",
       formalocal: "Oui",
+      loginpage: "Non",
     },
   },
   {
@@ -395,6 +452,7 @@ export const comparisonRows: ComparisonRow[] = [
       immopro: "Oui",
       soinpro: "Optionnel",
       formalocal: "Optionnel",
+      loginpage: "Non",
     },
   },
   {
@@ -406,6 +464,7 @@ export const comparisonRows: ComparisonRow[] = [
       immopro: "Oui",
       soinpro: "Oui",
       formalocal: "Oui",
+      loginpage: "Non",
     },
   },
   {
@@ -417,6 +476,7 @@ export const comparisonRows: ComparisonRow[] = [
       immopro: "Oui",
       soinpro: "Non",
       formalocal: "Oui",
+      loginpage: "Non",
     },
   },
   {
@@ -428,6 +488,19 @@ export const comparisonRows: ComparisonRow[] = [
       immopro: "Non",
       soinpro: "Oui",
       formalocal: "Préinscription",
+      loginpage: "Inscription",
+    },
+  },
+  {
+    label: "Connexion sociale",
+    values: {
+      proservice: "Non",
+      menulocal: "Non",
+      showcasepro: "Non",
+      immopro: "Non",
+      soinpro: "Non",
+      formalocal: "Non",
+      loginpage: "Oui",
     },
   },
 ];
