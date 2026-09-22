@@ -400,6 +400,57 @@ export const templates: Template[] = [
     accent: "#5358ee",
     accentSoft: "#e3eaff",
   },
+  {
+    slug: "pricingui",
+    name: "PricingUI",
+    category: "Application / Tarifs",
+    filters: ["Application"],
+    tagline: "Neuf pages de tarification, neuf identités visuelles",
+    description:
+      "Un projet de démonstration avec neuf pages de tarification complètes : SaaS, cloud, API IA, agence, e-commerce, éducation, streaming, outils développeurs et entreprise.",
+    longDescription:
+      "PricingUI rassemble neuf pages de pricing autonomes dans un même projet Next.js. Chaque page possède sa propre identité visuelle, ses interactions (bascule mensuel ou annuel, configurateur, curseur de consommation, simulateur) et sa logique de facturation. Les tarifs sont fictifs, les mises en page réutilisables.",
+    audience:
+      "Produits SaaS, outils développeurs, plateformes cloud, agences, services en ligne et équipes produit.",
+    image: "/templates/pricingui/preview.png",
+    demoUrl: "https://pricing-ui.eriencharmely.fr",
+    githubUrl:
+      "https://github.com/neylorxt/templates-web/tree/main/pricing-ui",
+    tags: ["Pricing", "Thèmes", "Calculateurs", "HeroUI"],
+    target: ["SaaS", "Cloud", "API IA", "Agence", "E-commerce", "Éducation"],
+    structure: [
+      "Accueil",
+      "SaaS",
+      "Cloud",
+      "AI API",
+      "Agence",
+      "E-commerce",
+      "Éducation",
+      "Streaming",
+      "Outils développeurs",
+      "Entreprise",
+    ],
+    features: [
+      "Neuf pages de tarification",
+      "Un thème visuel par page",
+      "Bascule mensuel ou annuel",
+      "Configurateur cloud en direct",
+      "Facturation au token",
+      "Simulateur e-commerce",
+      "Tableaux comparatifs",
+      "Devis entreprise",
+    ],
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "HeroUI",
+      "Vercel",
+    ],
+    accent: "#8b5cf6",
+    accentSoft: "#ede9fe",
+  },
 ];
 
 export function getTemplateBySlug(slug: string): Template | undefined {
@@ -417,6 +468,7 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Oui",
       formalocal: "Oui",
       loginpage: "Non",
+      pricingui: "Non",
     },
   },
   {
@@ -429,6 +481,7 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Non",
       formalocal: "Non",
       loginpage: "Non",
+      pricingui: "Non",
     },
   },
   {
@@ -441,6 +494,7 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Non",
       formalocal: "Oui",
       loginpage: "Non",
+      pricingui: "9 pages",
     },
   },
   {
@@ -453,6 +507,7 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Optionnel",
       formalocal: "Optionnel",
       loginpage: "Non",
+      pricingui: "Non",
     },
   },
   {
@@ -465,6 +520,7 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Oui",
       formalocal: "Oui",
       loginpage: "Non",
+      pricingui: "Non",
     },
   },
   {
@@ -477,6 +533,7 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Non",
       formalocal: "Oui",
       loginpage: "Non",
+      pricingui: "Non",
     },
   },
   {
@@ -489,6 +546,7 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Oui",
       formalocal: "Préinscription",
       loginpage: "Inscription",
+      pricingui: "Non",
     },
   },
   {
@@ -501,6 +559,20 @@ export const comparisonRows: ComparisonRow[] = [
       soinpro: "Non",
       formalocal: "Non",
       loginpage: "Oui",
+      pricingui: "Non",
+    },
+  },
+  {
+    label: "Calculateurs interactifs",
+    values: {
+      proservice: "Non",
+      menulocal: "Non",
+      showcasepro: "Non",
+      immopro: "Non",
+      soinpro: "Non",
+      formalocal: "Non",
+      loginpage: "Non",
+      pricingui: "Oui",
     },
   },
 ];

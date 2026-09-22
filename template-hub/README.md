@@ -4,7 +4,7 @@
 
 Hub et vitrine de templates de sites internet professionnels, prêts à être personnalisés pour des clients.
 
-TemplateHub présente **ProService**, **MenuLocal**, **ShowcasePro**, **ImmoPro**, **SoinPro**, **FormaLocal** et **LoginPage** : sept modèles Next.js pensés pour les entreprises de services, les commerces, les indépendants, l'immobilier, la santé, la formation et les applications. Le site permet à un prospect de découvrir les modèles, de les comparer, d'ouvrir une démonstration et de contacter l'équipe pour faire personnaliser un template.
+TemplateHub présente **ProService**, **MenuLocal**, **ShowcasePro**, **ImmoPro**, **SoinPro**, **FormaLocal**, **LoginPage** et **PricingUI** : huit modèles Next.js pensés pour les entreprises de services, les commerces, les indépendants, l'immobilier, la santé, la formation, les applications et la tarification. Le site permet à un prospect de découvrir les modèles, de les comparer, d'ouvrir une démonstration et de contacter l'équipe pour faire personnaliser un template.
 
 Le parcours proposé est le suivant : **découvrir → comparer → ouvrir une démo → choisir → contacter.**
 
@@ -26,6 +26,7 @@ Le parcours proposé est le suivant : **découvrir → comparer → ouvrir une d
 - **SoinPro** — pour dentistes, kinésithérapeutes, psychologues, nutritionnistes, ostéopathes et petits cabinets.
 - **FormaLocal** — pour écoles privées, centres de langues, organismes de formation, soutien scolaire et auto-écoles.
 - **LoginPage** — pour produits SaaS, applications web, espaces clients et intranets.
+- **PricingUI** — neuf pages de tarification pour produits SaaS, outils développeurs, plateformes cloud et agences.
 
 ## Prérequis
 
@@ -69,6 +70,7 @@ public/templates/immopro/preview.png
 public/templates/soinpro/preview.png
 public/templates/formalocal/preview.png
 public/templates/loginpage/preview.png
+public/templates/pricingui/preview.png
 ```
 
 L'identité visuelle (couleur de marque) se règle dans `app/globals.css` via les variables `--color-brand-*`.

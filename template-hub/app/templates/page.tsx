@@ -8,14 +8,14 @@ import { templates, templateCategories } from "@/data/templates";
 export const metadata: Metadata = {
   title: "Templates",
   description:
-    "Découvrez nos templates de sites professionnels et d'authentification pour les entreprises de services, les commerces, les indépendants, l'immobilier, la santé, la formation et les applications.",
+    "Découvrez nos templates de sites professionnels, d'authentification et de tarification pour les entreprises de services, les commerces, les indépendants, l'immobilier, la santé, la formation et les applications.",
   alternates: {
     canonical: "/templates",
   },
   openGraph: {
     title: "Nos templates | TemplateHub",
     description:
-      "Découvrez nos templates de sites professionnels et d'authentification, prêts à personnaliser.",
+      "Découvrez nos templates de sites professionnels, d'authentification et de tarification, prêts à personnaliser.",
   },
 };
 
