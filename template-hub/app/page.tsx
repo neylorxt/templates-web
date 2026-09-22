@@ -23,7 +23,7 @@ export default function HomePage() {
           <SectionHeader
             eyebrow="Catalogue"
             title="Nos templates"
-            description="Sept modèles pensés pour les services, les commerces, les indépendants, l'immobilier, la santé, la formation et les applications. Explorez, comparez et choisissez celui qui vous ressemble."
+            description="Huit modèles pensés pour les services, les commerces, les indépendants, l'immobilier, la santé, la formation, les applications et la tarification. Explorez, comparez et choisissez celui qui vous ressemble."
           />
         </Reveal>
         <Reveal delay={100}>

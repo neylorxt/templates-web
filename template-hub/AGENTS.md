@@ -10,10 +10,10 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 # template-hub
 
-Next.js 16.3.4 App Router site (React 19.2.8, TypeScript strict, Tailwind v4 via `@tailwindcss/postcss`, ESLint flat config). TemplateHub is a hub / showcase of website templates: it presents the sibling templates (ProService, MenuLocal, ShowcasePro, ImmoPro, SoinPro, FormaLocal, LoginPage) with cards, filters, comparison, detail pages and a contact form. All visible content is in French.
+Next.js 16.3.4 App Router site (React 19.2.8, TypeScript strict, Tailwind v4 via `@tailwindcss/postcss`, ESLint flat config). TemplateHub is a hub / showcase of website templates: it presents the sibling templates (ProService, MenuLocal, ShowcasePro, ImmoPro, SoinPro, FormaLocal, LoginPage, PricingUI) with cards, filters, comparison, detail pages and a contact form. All visible content is in French.
 
 ## Architecture
-- `data/templates.ts` — single source of truth for the 7 templates (slug, category, filters, description, tags, target activities, structure, features, accent colors, demo URL `https://<dossier>.eriencharmely.fr`, GitHub source URL), plus `comparisonRows` (comparison table) and `templateCategories` (filter bar). Cards, detail pages, sitemap and SEO are generated from this array; add a template by adding an object (plus images in `public/templates/<slug>/`). Hub slugs drop hyphens (`proservice`, `loginpage`).
+- `data/templates.ts` — single source of truth for the 8 templates (slug, category, filters, description, tags, target activities, structure, features, accent colors, demo URL `https://<dossier>.eriencharmely.fr`, GitHub source URL), plus `comparisonRows` (comparison table) and `templateCategories` (filter bar). Cards, detail pages, sitemap and SEO are generated from this array; add a template by adding an object (plus images in `public/templates/<slug>/`). Hub slugs drop hyphens (`proservice`, `loginpage`).
 - `config/site.ts` — brand identity, contact coordinates, WhatsApp number, socials, nav, base URL used for SEO (sitemap, robots, Open Graph).
 - Routes: `/`, `/templates`, `/templates/[slug]`, `/comment-ca-marche`, `/contact`, `/mentions-legales`; SEO via `app/sitemap.ts` and `app/robots.ts`.
 - Lucide React is used for icons; the brand icons (Instagram, Facebook, LinkedIn) are inline SVGs in `components/Footer.tsx` because lucide-react ≥1.4 no longer exports them.
