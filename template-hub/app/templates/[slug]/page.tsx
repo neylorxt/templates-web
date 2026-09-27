@@ -135,7 +135,7 @@ export default async function TemplateDetailPage({ params }: TemplatePageProps) 
             <span className="h-2.5 w-2.5 rounded-full bg-zinc-200" />
             <span className="h-2.5 w-2.5 rounded-full bg-zinc-200" />
             <div className="ml-3 flex-1 truncate rounded-md bg-zinc-100 px-3 py-1 text-[11px] text-zinc-500">
-              {template.slug}.fr
+              {template.demoUrl.replace(/^https?:\/\//, "")}
             </div>
           </div>
           <div className="relative aspect-[16/9] w-full">
