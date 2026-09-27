@@ -1,6 +1,6 @@
 import { CalendarDays, ChefHat, CreditCard, Leaf, Salad, Sun } from "lucide-react";
 
-export const whatsappNumber = "33612345678";
+export const whatsappNumber = "33763702481";
 const defaultWhatsappMessage =
   "Bonjour, je souhaiterais passer une commande ou obtenir plus d'informations.";
 
@@ -14,10 +14,10 @@ export const siteConfig = {
   description:
     "Bistrot chaleureux au cœur de la Presqu'île de Lyon. Produits frais et de saison, plats mijotés maison, à découvrir sur place ou à commander directement.",
   type: "Restaurant",
-  phone: "+33472123456",
-  phoneDisplay: "04 72 12 34 56",
+  phone: "+33763702481",
+  phoneDisplay: "07 63 70 24 81",
   whatsapp: whatsappNumber,
-  email: "bonjour@lecomptoirdelea.fr",
+  email: "contact@eriencharmely.fr",
   address: "18 rue des Marronniers",
   city: "69002 Lyon",
   district: "Presqu'île",

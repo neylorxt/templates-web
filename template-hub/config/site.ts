@@ -18,12 +18,12 @@ export const siteConfig = {
   /** URL de base du site, utilisée pour le SEO (Open Graph, sitemap, robots) */
   baseUrl: "https://template-hub.fr",
 
-  /** Coordonnées de contact (à remplacer par les vraies informations) */
+  /** Coordonnées de contact */
   contact: {
     phone: "33763702481",
     phoneDisplay: "07 63 70 24 81",
     whatsapp: "33763702481",
-    email: "eriencharmelyfr@gmail.com",
+    email: "contact@eriencharmely.fr",
   },
 
   /** Message WhatsApp pré-rempli */

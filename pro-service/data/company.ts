@@ -62,9 +62,9 @@ export const company = {
   ctaSubtitle:
     "Contactez-nous aujourd'hui et recevez votre devis gratuitement.",
 
-  phone: "01 23 45 67 89",
-  phoneHref: "tel:+33123456789",
-  email: "contact@proservice.fr",
+  phone: "07 63 70 24 81",
+  phoneHref: "tel:+33763702481",
+  email: "contact@eriencharmely.fr",
   address: "12 rue des Artisans",
   postalCode: "75011",
   city: "Paris",
@@ -72,7 +72,7 @@ export const company = {
   country: "FR",
   geo: { lat: 48.8616, lng: 2.3785 },
 
-  whatsappNumber: "33612345678",
+  whatsappNumber: "33763702481",
   whatsappMessage:
     "Bonjour, je souhaiterais obtenir plus d'informations sur vos services.",
   get whatsappUrl() {

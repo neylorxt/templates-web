@@ -61,7 +61,7 @@ const localBusinessJsonLd = {
   name: company.legalName,
   description: company.heroSubtitle,
   url: "https://www.proservice.fr",
-  telephone: `+33 ${company.phone.replace(/\s/g, "")}`,
+  telephone: company.phoneHref.replace("tel:", ""),
   email: company.email,
   priceRange: "€€",
   image: company.heroImage.src,
