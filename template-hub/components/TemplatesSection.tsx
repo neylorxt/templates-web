@@ -6,6 +6,8 @@ import { TemplateFilters } from "@/components/TemplateFilters";
 import { TemplateCard } from "@/components/TemplateCard";
 import { TemplateRow } from "@/components/TemplateRow";
 
+const templatesNewestFirst = [...templates].reverse();
+
 type TemplatesSectionProps = {
   initialCategory?: string;
   variant?: "grid" | "list";
@@ -18,8 +20,8 @@ export function TemplatesSection({
   const [active, setActive] = useState(initialCategory);
 
   const filtered = useMemo(() => {
-    if (active === "Tous") return templates;
-    return templates.filter((template) =>
+    if (active === "Tous") return templatesNewestFirst;
+    return templatesNewestFirst.filter((template) =>
       template.filters.some((filter) => filter === active)
     );
   }, [active]);
