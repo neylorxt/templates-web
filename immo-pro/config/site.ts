@@ -31,12 +31,12 @@ export const siteConfig = {
       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
   },
 
-  /** Coordonnées de contact (à remplacer par les vraies informations) */
+  /** Coordonnées de contact */
   contact: {
-    phone: "33612345678",
-    phoneDisplay: "06 12 34 56 78",
-    whatsapp: "33612345678",
-    email: "contact@immopro.fr",
+    phone: "33763702481",
+    phoneDisplay: "07 63 70 24 81",
+    whatsapp: "33763702481",
+    email: "contact@eriencharmely.fr",
     address: "14 rue de la République",
     city: "69002 Lyon",
     hours: "Lundi au vendredi : 9 h à 19 h, samedi : 10 h à 13 h",

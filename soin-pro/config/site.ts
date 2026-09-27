@@ -52,17 +52,17 @@ export const siteConfig = {
   /** Type Schema.org (voir `SchemaType`). Adapter au métier du cabinet. */
   schemaType: "MedicalClinic" as SchemaType,
 
-  /** Coordonnées de contact (à remplacer par les vraies informations) */
+  /** Coordonnées de contact */
   contact: {
-    phone: "33478000000",
-    phoneDisplay: "04 78 00 00 00",
-    email: "contact@soinpro.fr",
+    phone: "33763702481",
+    phoneDisplay: "07 63 70 24 81",
+    email: "contact@eriencharmely.fr",
     address: "12 rue de la Charité",
     postalCode: "69002",
     city: "Lyon",
     region: "Auvergne-Rhône-Alpes",
     country: "FR",
-    whatsapp: "33612345678",
+    whatsapp: "33763702481",
   },
 
   /** WhatsApp est facultatif : à activer seulement si le cabinet l'utilise. */

@@ -32,18 +32,18 @@ export const siteConfig = {
     "Centre de formation à Lyon : langues, bureautique, digital et management. Des programmes pratiques, un accompagnement personnalisé et des formateurs expérimentés pour progresser efficacement.",
   baseUrl: "https://formaLocal.fr",
 
-  /** Coordonnées de l'établissement (à remplacer par les vraies informations) */
+  /** Coordonnées de l'établissement */
   contact: {
-    phone: "33478000000",
-    phoneDisplay: "04 78 00 00 00",
-    email: "contact@formaLocal.fr",
-    registrationEmail: "inscription@formaLocal.fr",
+    phone: "33763702481",
+    phoneDisplay: "07 63 70 24 81",
+    email: "contact@eriencharmely.fr",
+    registrationEmail: "contact@eriencharmely.fr",
     address: "18 rue de la République",
     postalCode: "69002",
     city: "Lyon",
     region: "Auvergne-Rhône-Alpes",
     country: "FR",
-    whatsapp: "33612345678",
+    whatsapp: "33763702481",
   },
 
   /** WhatsApp est facultatif : à activer seulement si l'établissement l'utilise. */

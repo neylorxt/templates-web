@@ -20,7 +20,7 @@ export const siteConfig = {
     "Une équipe disponible pour vous accompagner",
   ],
   /** Adresse de contact affichée en pied de page. */
-  supportEmail: "support@yourlogin.example",
+  supportEmail: "contact@eriencharmely.fr",
   /** Liens légaux, à remplacer par vos propres pages. */
   legal: {
     termsUrl: "#",

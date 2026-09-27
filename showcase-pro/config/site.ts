@@ -26,10 +26,10 @@ export const siteConfig = {
 
   /** Coordonnées */
   contact: {
-    phone: "33612345678",
-    phoneDisplay: "06 12 34 56 78",
-    whatsapp: "33612345678",
-    email: "bonjour@julienmoreau.fr",
+    phone: "33763702481",
+    phoneDisplay: "07 63 70 24 81",
+    whatsapp: "33763702481",
+    email: "contact@eriencharmely.fr",
     city: "Lyon",
     address: "Lyon et ses environs, Rhône-Alpes",
   },
